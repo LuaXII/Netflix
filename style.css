@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 30%);
+    width: 90%;
+    margin: 2% auto 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Alfa Slab One', cursive;
+    align-items: center;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    margin-block-start: 7px;
+    margin-block-end: 0em;
+    font-family: 'MyFont';
+    text-transform: uppercase;
+    font-size: clamp(2.4em, 2.5vw, 4em);
+}
+
+.description {
+    margin-block-start: 0em;
+    font-size: clamp(0.5em, 1vw, 1.5em)
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 80%);
+    margin: auto;
+    width: 30%;
+    color: white;
+    margin-top: 2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+
+div.form > p {
+    margin-block-end: 0em;
+}
+
+div.form > input {
+    width: 90%;
+}
+
+.section1 {
+    padding-top: 5%;
+}
+
+div.section1 > div {
+    display: flex;
+    flex-direction: column;
+}
+
+div.section1 :nth-child(2) {
+    margin-block-end: 0.5em;
+    margin-block-start: 0.5em;
+}
+
+.section1-child > input {
+    height: 3em;
+    outline: none;
+}
+
+.section2 > label {
+    margin-block-start: 1em;
+}
+
+.section2 > select {
+    height: 2.4em;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+
+.section4 {
+    margin-block-start: 1em;
+}
+
+.section4 > textarea {
+    height: 5vw;
+    outline: none;
+    vertical-align: top;
+}
+
+.section4 > label {
+    padding-bottom: 1em;
+}
+
+.submit {
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 25px;
+    width: 25%;
+    margin-top: 1em;
+    margin-left: 40%;
+    color: white;
+}
+
+@font-face {
+    font-family: MyFont;
+    src: url(./BebasNeue-Regular.ttf);
+}
